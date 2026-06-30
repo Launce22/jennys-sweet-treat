@@ -94,15 +94,19 @@
         /* Hero Section - Same height as landing page */
         .hero {
             width: 100%;
-            height: 30vh;
+            height: 65vh;
             min-height: 250px;
-            background: linear-gradient(135deg, rgba(248, 24, 23, 0.9), rgba(248, 24, 23, 0.7));
+            background: url("../Images/slava_web-designer-cupcakes-8289053_1920.jpg");
+            background-size: cover;
+            background-position: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: white;
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
 
         .hero h1 {
